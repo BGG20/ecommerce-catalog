@@ -42,22 +42,19 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: x-large;
             color: #720060;
-          "
-        >
+          ">
           ${{ product.price }}
         </p>
 
         <button
           class="border-button2"
-          style="text-align: center; margin-top: 10px; margin-left: 0px"
-        >
+          style="text-align: center; margin-top: 10px; margin-left: 0px">
           Buy Now
         </button>
         <button
           class="border-button"
           @click="getNextProduct"
-          style="text-align: center; margin-top: 10px; margin-left: 40px"
-        >
+          style="text-align: center; margin-top: 10px; margin-left: 40px">
           Next Product
         </button>
 
